@@ -121,7 +121,7 @@ def make_json_csv():
                 class_file_count += len(json_file)
                 for flst in json_file:
                     class_file_lst.append(flst)
-                    class_path_file_lst.append(['{}/{}/polygon/{}'.format(json_path, date, dlst), flst])
+                    class_path_file_lst.append(['{}/polygon/{}'.format(date, dlst), flst])
         #     print(len(class_file_lst))
         # print(len(class_file_lst), len(class_path_file_lst), len(set(class_file_lst)))
 
